@@ -1,0 +1,89 @@
+/*Colors and fonts*/
+body {
+    background: #6B8E23;
+    color:#778899
+    font-family: "Playpen Sans", serif;
+    font-size:27px;
+    }
+h1 ,h2,h3 {
+	
+  font-family: "Roboto", serif;
+  font-weight: 350;
+  font-style: normal;
+}
+	
+	h1 {
+color:#e74c3c;
+font-size: 70px
+}
+h2 {
+	color:#f1c40f;
+	font-size: 46px
+	font-weight:lighter;
+	} 
+	h3 {
+	color:#f1c40f;
+	font-size: 46px
+	font-weight:lighter;
+	} 
+	h4 {
+	color:#f1c40f;
+	font-size: 46px
+	font-weight:lighter;
+	} 
+	a {
+		text-decoration: none;
+		color: blue ;
+		} 
+		a:hover {
+			color: red;
+			} 
+
+	/*Custom design with class */
+	.container {
+		width: 700px;
+		margin: 100px auto;
+		}  
+		.card-white {
+			background-color:white;
+			padding:40px;
+			box-shadow:0px 10px 30px rgba(0,0,0,1);
+			border-radius:4px;
+			margin: 20px 0px;
+			text-align:center;
+			} 
+			.img-circle {
+				border-radius: 50%;
+				} 
+				
+						.list-inline {
+							list-style:none;
+							padding-left: :0;
+							} 
+							.list-line li {
+								display:inline;
+								padding :10px;
+								} 
+							.list-line i {
+								font-size:80px;
+								color:#85c1e9;
+								} 
+								@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+		
